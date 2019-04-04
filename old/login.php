@@ -5,9 +5,9 @@
         
         // set up the variables
         $db_hostname = '172.16.11.22:3306'
-        $db_username = 'west1_Admin';
+        $db_username = 'west1_todo';
         $db_password = 'Dog123';
-        $db_database = 'west1_15_birdspottinguk';
+        $db_database = 'west1_15_todo';
         
         // Connect to server and check connection
         $dbconnect = mysqli_connect("$db_hostname", "$db_username", "$db_password");
